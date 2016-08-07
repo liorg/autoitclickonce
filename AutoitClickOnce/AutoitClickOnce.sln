@@ -26,6 +26,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{B47F6E27
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{61A72D5A-38A9-406D-A1B3-4FEE79249915}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{F0C19CCB-3787-48F8-8067-3707B7867798}"
+	ProjectSection(SolutionItems) = preProject
+		docs\צילומי מסך התקנת AUTOIT.docx = docs\צילומי מסך התקנת AUTOIT.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

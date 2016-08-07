@@ -1,0 +1,1 @@
+Register Autoitx3.dll

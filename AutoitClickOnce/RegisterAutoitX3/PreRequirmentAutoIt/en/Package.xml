@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Package xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"
+         Name="LiorCrmRegisterAutoItX3" Culture="Culture"
+         LicenseAgreement="eula.txt">
+  <!-- Defines list of files to be copied on build -->
+    <PackageFiles>
+        <PackageFile Name="eula.txt"/>
+    </PackageFiles>
+ 
+  <!-- Defines a localizable string table for error messages and url's -->
+  <Strings>
+    <String Name="DisplayName">Register AutoItX3 </String>
+    <String Name="Culture">en</String>
+    <String Name="TalCarWebBootstrapper">http://xxxxx:8080/PreRequirmentAutoIt/SetupRegister.msi</String>
+    <String Name="CancelFailure">User Refuse to Register to AutoItX3 </String>
+    <String Name="GeneralFailure">A fatal error occurred during the installation of ELUA Component Execution</String>
+    <String Name="AdminRequired">You do not have the permissions required to install this application.  Please contact your administrator.</String>
+  </Strings>    
+</Package>

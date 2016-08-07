@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterAutoitX3", "RegisterAutoitX3\RegisterAutoitX3.csproj", "{5ACABA3E-C5FF-4ADA-9761-78224C283DBB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupPreRequired", "SetupPreRequired\SetupPreRequired.vdproj", "{07FABC00-C236-4DD4-A44E-7EB4B14D3933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickOnceAutoIt", "ClickOnceAutoIt\ClickOnceAutoIt.csproj", "{540A225C-280C-4C2D-9A03-F1A38B400BB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{476DE935-7D38-48E0-B899-B00DF6985F7E}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AutoItX\AutoItX3.Assembly.dll = Dlls\AutoItX\AutoItX3.Assembly.dll
+		Dlls\AutoItX\AutoItX3.Assembly.xml = Dlls\AutoItX\AutoItX3.Assembly.xml
+		Dlls\AutoItX\AutoItX3.dll = Dlls\AutoItX\AutoItX3.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformDemo", "WinformDemo\WinformDemo.csproj", "{FCD44FEC-59D0-44A4-98A5-43B895871D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPublish", "publishWeb\WebPublish\WebPublish.csproj", "{2B62825F-7649-4E9C-9B52-9A10F127D4DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{949E622C-D35B-4499-AE6B-AE9578C46DA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{B47F6E27-18CE-404C-BEA5-9E4115B3DD12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{61A72D5A-38A9-406D-A1B3-4FEE79249915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ACABA3E-C5FF-4ADA-9761-78224C283DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACABA3E-C5FF-4ADA-9761-78224C283DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACABA3E-C5FF-4ADA-9761-78224C283DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACABA3E-C5FF-4ADA-9761-78224C283DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07FABC00-C236-4DD4-A44E-7EB4B14D3933}.Debug|Any CPU.ActiveCfg = Debug
+		{07FABC00-C236-4DD4-A44E-7EB4B14D3933}.Release|Any CPU.ActiveCfg = Release
+		{540A225C-280C-4C2D-9A03-F1A38B400BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540A225C-280C-4C2D-9A03-F1A38B400BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540A225C-280C-4C2D-9A03-F1A38B400BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540A225C-280C-4C2D-9A03-F1A38B400BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD44FEC-59D0-44A4-98A5-43B895871D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD44FEC-59D0-44A4-98A5-43B895871D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD44FEC-59D0-44A4-98A5-43B895871D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD44FEC-59D0-44A4-98A5-43B895871D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B62825F-7649-4E9C-9B52-9A10F127D4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B62825F-7649-4E9C-9B52-9A10F127D4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B62825F-7649-4E9C-9B52-9A10F127D4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B62825F-7649-4E9C-9B52-9A10F127D4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5ACABA3E-C5FF-4ADA-9761-78224C283DBB} = {B47F6E27-18CE-404C-BEA5-9E4115B3DD12}
+		{07FABC00-C236-4DD4-A44E-7EB4B14D3933} = {B47F6E27-18CE-404C-BEA5-9E4115B3DD12}
+		{540A225C-280C-4C2D-9A03-F1A38B400BB8} = {949E622C-D35B-4499-AE6B-AE9578C46DA3}
+		{FCD44FEC-59D0-44A4-98A5-43B895871D34} = {61A72D5A-38A9-406D-A1B3-4FEE79249915}
+		{2B62825F-7649-4E9C-9B52-9A10F127D4DD} = {949E622C-D35B-4499-AE6B-AE9578C46DA3}
+	EndGlobalSection
+EndGlobal

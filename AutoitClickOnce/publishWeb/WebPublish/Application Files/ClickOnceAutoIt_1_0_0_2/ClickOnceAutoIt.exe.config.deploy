@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="shortcut" value="{CTRLDOWN}W{CTRLUP}" />
+    <add key="title" value="WinformDemo" />
+    <add key="path" value="C:\Users\lior_gr\Documents\GitHub\autoitclickonce\AutoitClickOnce\WinformDemo\bin\Debug\WinformDemo.exe" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+  </appSettings>
+</configuration>

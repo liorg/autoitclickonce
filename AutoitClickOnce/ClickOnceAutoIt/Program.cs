@@ -34,7 +34,7 @@ namespace ClickOnceAutoIt
 
         static void Main(string[] args)
         {
-            IAutoItX3 au3 = new AutoItX3();
+            AutoItX3 au3 = new AutoItX3();
             var path = System.Configuration.ConfigurationManager.AppSettings["path"].ToString();
             var shortcut = System.Configuration.ConfigurationManager.AppSettings["shortcut"].ToString();
             var title = System.Configuration.ConfigurationManager.AppSettings["title"].ToString();
